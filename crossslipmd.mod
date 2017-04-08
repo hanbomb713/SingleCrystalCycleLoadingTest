@@ -1,0 +1,1554 @@
+GFORTRAN module version '5' created from Modules.f90 on Tue Jul 19 15:17:34 2011
+MD5:e9305327c4552a49a44d01be736de345 -- If you edit this, you'll get what you deserve.
+
+(() () (2 3 4) (5 6 7) (8 9 10 11 12 13 14) (15 16 17 18 19 20) (21 22)
+(23) () () () () () () () () () () () () () () () () () () ())
+
+()
+
+(('zqmpi_bcast' 'zqmpi' 24 25 26) ('zqmpi_isend' 'zqmpi' 27 28 29) (
+'zqmpi_recv' 'zqmpi' 30 31 32))
+
+(('mpi_fortran_argv_null' 33 0 0 'mpi_fortran_argv_null') (
+'mpi_fortran_argvs_null' 34 0 0 'mpi_fortran_argvs_null') (
+'mpi_fortran_bottom' 35 0 0 'mpi_fortran_bottom') (
+'mpi_fortran_errcodes_ignore' 36 0 0 'mpi_fortran_errcodes_ignore') (
+'mpi_fortran_in_place' 37 0 0 'mpi_fortran_in_place') (
+'mpi_fortran_status_ignore' 38 0 0 'mpi_fortran_status_ignore') (
+'mpi_fortran_statuses_ignore' 39 0 0 'mpi_fortran_statuses_ignore'))
+
+()
+
+()
+
+(40 '__convert_i4_r8' '(intrinsic)' '__convert_i4_r8' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 FUNCTION ELEMENTAL PURE)
+(REAL 8 0 0 REAL ()) 0 0 () () 40 () () () 0 0)
+41 'beta' 'crossslipmd' 'beta' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 REAL ()) 0 0 () (CONSTANT (REAL 8
+0 0 REAL ()) 0 '0.10000000000000@1') () 0 () () () 0 0)
+42 'crossslipmd' 'crossslipmd' 'crossslipmd' 1 ((MODULE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0
+() () () 0 0)
+43 'csyn' 'crossslipmd' 'csyn' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0 () () () 0 0)
+44 'dispoint' 'vectors' 'dispoint' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 ALLOC_COMP) (UNKNOWN 0 0 0 UNKNOWN ())
+0 0 () () 0 ((45 'iid' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (46
+'iloopid' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (47 'itype' (
+INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (48 'tvpl' (DERIVED 49 0 0
+DERIVED ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0) UNKNOWN-ACCESS ()) (50 'tvtl' (DERIVED 49 0 0 DERIVED ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (51 'tvpg' (DERIVED 49 0 0 DERIVED ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (52 'tvtg' (DERIVED 49 0 0 DERIVED ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (53 'tvprev' (DERIVED 49 0 0 DERIVED ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (54 'tvprevt' (DERIVED 49 0 0 DERIVED ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (55 'tvacce' (DERIVED 49 0 0 DERIVED ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (56 'force' (DERIVED 49 0 0 DERIVED ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (57 'dpmass' (REAL 8 0 0 REAL ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (58
+'iplane' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (59 'iburgers' (
+INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (60 'ibeginp' (INTEGER 4 0 0
+INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0) UNKNOWN-ACCESS ()) (61 'iendp' (INTEGER 4 0 0 INTEGER ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (62 'inumnei' (INTEGER 4 0 0 INTEGER ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ()) (63 'iaidofnei' (INTEGER 4 0 0 INTEGER ()) (1 0
+DEFERRED () ()) (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 ALLOCATABLE DIMENSION) UNKNOWN-ACCESS ()) (64 'lstat' (LOGICAL 4 0 0
+LOGICAL ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0) UNKNOWN-ACCESS ()) (65 'ltocal' (LOGICAL 4 0 0 LOGICAL ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0)
+UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0 13250805)
+66 'dpcslength' 'crossslipmd' 'dpcslength' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (REAL 8 0 0 REAL ()) 0 0 () () 0 () ()
+() 0 0)
+67 'dppointer' 'vectors' 'dppointer' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 ALLOC_COMP POINTER_COMP) (UNKNOWN 0 0 0
+UNKNOWN ()) 0 0 () () 0 ((68 'p' (DERIVED 44 0 0 DERIVED ()) () (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 POINTER)
+UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0 28540222)
+69 'finalscrewmiller' 'crossslipmd' 'finalscrewmiller' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION) (INTEGER 4 0
+0 INTEGER ()) 0 0 () (1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ())
+0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6')) 0 () () () 0 0)
+70 'finalscrewn' 'crossslipmd' 'finalscrewn' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+71 'finalscrewseg' 'crossslipmd' 'finalscrewseg' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION) (INTEGER 4 0
+0 INTEGER ()) 0 0 () (2 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ())
+0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6') (CONSTANT (INTEGER 4
+0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2')) 0 ()
+() () 0 0)
+72 'finalscrewu' 'crossslipmd' 'finalscrewu' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(2 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '6') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2')) 0 () () () 0 0)
+73 'getuv' 'vectors' 'getuv' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+DECL UNKNOWN 0 0 FUNCTION) (DERIVED 49 0 0 DERIVED ()) 74 0 (75 76 77) ()
+73 () () () 0 0)
+78 'glideplane' 'vectors' 'glideplane' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0
+((79 'imiller' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (80 'origin' (
+DERIVED 49 0 0 DERIVED ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (81 'inumpequiv' (INTEGER 4 0 0
+INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0) UNKNOWN-ACCESS ()) (82 'iidpequiv' (INTEGER 4 0 0 INTEGER ()) (1 0
+EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER
+4 0 0 INTEGER ()) 0 '5')) (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION) UNKNOWN-ACCESS ())) PUBLIC (() () () ())
+() 0 0 99254442)
+83 'icscount' 'crossslipmd' 'icscount' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+84 'icsmiller' 'crossslipmd' 'icsmiller' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0
+0 () (1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3')) 0 () () () 0 0)
+85 'idoubletype' 'zqmpi' 'idoubletype' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3') () 0 () () () 0 0)
+86 'iierr' 'zqmpi' 'iierr' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+87 'iintegertype' 'zqmpi' 'iintegertype' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+88 'ilogicaltype' 'zqmpi' 'ilogicaltype' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+89 'imaster' 'zqmpi' 'imaster' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+90 'imaxnodedim' 'crossslipmd' 'imaxnodedim' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '200') () 0 ()
+() () 0 0)
+91 'imaxnumzqsr' 'zqmpi' 'imaxnumzqsr' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1000') () 0 () () () 0 0)
+92 'impi_client_color' 'zqmpi' 'impi_client_color' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '11') () 0 ()
+() () 0 0)
+93 'impi_client_size' 'zqmpi' 'impi_client_size' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10') () 0 ()
+() () 0 0)
+94 'impi_host_color' 'zqmpi' 'impi_host_color' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '13') () 0 ()
+() () 0 0)
+95 'impi_host_size' 'zqmpi' 'impi_host_size' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '12') () 0 ()
+() () 0 0)
+96 'imyid' 'zqmpi' 'imyid' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+97 'inumcsm' 'crossslipmd' 'inumcsm' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+98 'inumprocs' 'zqmpi' 'inumprocs' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+99 'inumtotalscrew' 'crossslipmd' 'inumtotalscrew' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER
+()) 0 0 () () 0 () () () 0 0)
+100 'inumtotalscrew1' 'crossslipmd' 'inumtotalscrew1' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER
+()) 0 0 () () 0 () () () 0 0)
+101 'inumzqsr' 'zqmpi' 'inumzqsr' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+102 'istat' 'zqmpi' 'istat' 1 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0 0 () (1 0
+EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER
+4 0 0 INTEGER ()) 0 '6')) 0 () () () 0 0)
+103 'itmpburgers' 'crossslipmd' 'itmpburgers' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER
+()) 0 0 () () 0 () () () 0 0)
+104 'itmpindex' 'crossslipmd' 'itmpindex' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0
+0 () (1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '200')) 0 () () () 0 0)
+105 'itmplooptype' 'crossslipmd' 'itmplooptype' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER
+()) 0 0 () () 0 () () () 0 0)
+106 'itmpnewnump' 'crossslipmd' 'itmpnewnump' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER
+()) 0 0 () () 0 () () () 0 0)
+107 'itmpnump' 'crossslipmd' 'itmpnump' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+108 'itmpplane' 'crossslipmd' 'itmpplane' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+109 'lcrossslip' 'crossslipmd' 'lcrossslip' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0
+() () () 0 0)
+110 'length0' 'crossslipmd' 'length0' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 REAL ()) 0 0 () () 0
+() () () 0 0)
+111 'lscrewforce' 'crossslipmd' 'lscrewforce' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (LOGICAL 4 0 0 LOGICAL
+()) 0 0 () () 0 () () () 0 0)
+112 'lscrewseg' 'crossslipmd' 'lscrewseg' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () () 0
+() () () 0 0)
+113 'ltoimplement' 'crossslipmd' 'ltoimplement' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (LOGICAL 4 0 0 LOGICAL
+()) 0 0 () () 0 () () () 0 0)
+19 'm1_div_real' 'vectors' 'm1_div_real' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 114 0 0 DERIVED ()) 115
+0 (116 117) () 19 () () () 0 0)
+6 'm1_minus_m2' 'vectors' 'm1_minus_m2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 114 0 0 DERIVED ()) 118
+0 (119 120) () 6 () () () 0 0)
+11 'm1_mul_m2' 'vectors' 'm1_mul_m2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 114 0 0 DERIVED ()) 121
+0 (122 123) () 11 () () () 0 0)
+12 'm1_mul_v2' 'vectors' 'm1_mul_v2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 49 0 0 DERIVED ()) 124 0
+(125 126) () 12 () () () 0 0)
+23 'm1_outerproduct1_v2' 'vectors' 'm1_outerproduct1_v2' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 127 0 0
+DERIVED ()) 128 0 (129 130) () 23 () () () 0 0)
+16 'm1_outerproduct_v2' 'vectors' 'm1_outerproduct_v2' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 127 0 0
+DERIVED ()) 131 0 (132 133) () 16 () () () 0 0)
+3 'm1_plus_m2' 'vectors' 'm1_plus_m2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 114 0 0 DERIVED ()) 134
+0 (135 136) () 3 () () () 0 0)
+137 'mag' 'vectors' 'mag' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+UNKNOWN 0 0 FUNCTION) (REAL 8 0 0 REAL ()) 138 0 (139) () 137 () () () 0
+0)
+114 'matrix' 'vectors' 'matrix' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ((140 'v' (
+DERIVED 49 0 0 DERIVED ()) (1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3')) (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION)
+UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0 54374516)
+141 'millerindex' 'vectors' 'millerindex' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0
+((142 'v' (DERIVED 49 0 0 DERIVED ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (143 'es' (DERIVED
+114 0 0 DERIVED ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0) UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0 56080566)
+144 'mpi_2complex' 'zqmpi' 'mpi_2complex' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '26') () 0 () () () 0 0)
+145 'mpi_2double_complex' 'zqmpi' 'mpi_2double_complex' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '27') () 0 ()
+() () 0 0)
+146 'mpi_2double_precision' 'zqmpi' 'mpi_2double_precision' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'24') () 0 () () () 0 0)
+147 'mpi_2integer' 'zqmpi' 'mpi_2integer' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '25') () 0 () () () 0 0)
+148 'mpi_2real' 'zqmpi' 'mpi_2real' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '23') () 0 () () () 0 0)
+149 'mpi_address_kind' 'zqmpi' 'mpi_address_kind' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '8') () 0 () ()
+() 0 0)
+150 'mpi_any_source' 'zqmpi' 'mpi_any_source' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '-1') () 0 ()
+() () 0 0)
+151 'mpi_any_tag' 'zqmpi' 'mpi_any_tag' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '-1') () 0 () () () 0 0)
+152 'mpi_appnum' 'zqmpi' 'mpi_appnum' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '4') () 0 () () () 0 0)
+33 'mpi_argv_null' 'zqmpi' 'mpi_argv_null' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION IN_COMMON) (CHARACTER 1 0 0
+CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1'))) 0 0 () (1 0
+EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (INTEGER
+4 0 0 INTEGER ()) 0 '1')) 0 () () () 0 0)
+34 'mpi_argvs_null' 'zqmpi' 'mpi_argvs_null' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 IN_COMMON) (REAL 8 0 0 REAL ()) 0 0 ()
+() 0 () () () 0 0)
+153 'mpi_band' 'zqmpi' 'mpi_band' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6') () 0 () () () 0 0)
+154 'mpi_bor' 'zqmpi' 'mpi_bor' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '8') () 0 () () () 0 0)
+35 'mpi_bottom' 'zqmpi' 'mpi_bottom' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 IN_COMMON) (INTEGER 4 0 0 INTEGER ()) 0
+0 () () 0 () () () 0 0)
+155 'mpi_bsend_overhead' 'zqmpi' 'mpi_bsend_overhead' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '128') () 0 ()
+() () 0 0)
+156 'mpi_bxor' 'zqmpi' 'mpi_bxor' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10') () 0 () () () 0 0)
+157 'mpi_byte' 'zqmpi' 'mpi_byte' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+158 'mpi_cart' 'zqmpi' 'mpi_cart' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+159 'mpi_character' 'zqmpi' 'mpi_character' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '5') () 0 () () () 0 0)
+160 'mpi_combiner_contiguous' 'zqmpi' 'mpi_combiner_contiguous' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'2') () 0 () () () 0 0)
+161 'mpi_combiner_darray' 'zqmpi' 'mpi_combiner_darray' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '13') () 0 ()
+() () 0 0)
+162 'mpi_combiner_dup' 'zqmpi' 'mpi_combiner_dup' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+163 'mpi_combiner_f90_complex' 'zqmpi' 'mpi_combiner_f90_complex' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'15') () 0 () () () 0 0)
+164 'mpi_combiner_f90_integer' 'zqmpi' 'mpi_combiner_f90_integer' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'16') () 0 () () () 0 0)
+165 'mpi_combiner_f90_real' 'zqmpi' 'mpi_combiner_f90_real' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'14') () 0 () () () 0 0)
+166 'mpi_combiner_hindexed' 'zqmpi' 'mpi_combiner_hindexed' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'8') () 0 () () () 0 0)
+167 'mpi_combiner_hindexed_integer' 'zqmpi'
+'mpi_combiner_hindexed_integer' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '7') () 0 () () () 0 0)
+168 'mpi_combiner_hvector' 'zqmpi' 'mpi_combiner_hvector' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '5') () 0 () ()
+() 0 0)
+169 'mpi_combiner_hvector_integer' 'zqmpi' 'mpi_combiner_hvector_integer'
+1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'4') () 0 () () () 0 0)
+170 'mpi_combiner_indexed' 'zqmpi' 'mpi_combiner_indexed' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6') () 0 () ()
+() 0 0)
+171 'mpi_combiner_indexed_block' 'zqmpi' 'mpi_combiner_indexed_block' 1
+((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'9') () 0 () () () 0 0)
+172 'mpi_combiner_named' 'zqmpi' 'mpi_combiner_named' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () ()
+() 0 0)
+173 'mpi_combiner_resized' 'zqmpi' 'mpi_combiner_resized' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '17') () 0 ()
+() () 0 0)
+174 'mpi_combiner_struct' 'zqmpi' 'mpi_combiner_struct' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '11') () 0 ()
+() () 0 0)
+175 'mpi_combiner_struct_integer' 'zqmpi' 'mpi_combiner_struct_integer'
+1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'10') () 0 () () () 0 0)
+176 'mpi_combiner_subarray' 'zqmpi' 'mpi_combiner_subarray' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'12') () 0 () () () 0 0)
+177 'mpi_combiner_vector' 'zqmpi' 'mpi_combiner_vector' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3') () 0 () ()
+() 0 0)
+178 'mpi_comm_dup_fn' 'zqmpi' 'mpi_comm_dup_fn' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+179 'mpi_comm_null' 'zqmpi' 'mpi_comm_null' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+180 'mpi_comm_null_copy_fn' 'zqmpi' 'mpi_comm_null_copy_fn' 1 ((
+PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL
+SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+181 'mpi_comm_null_delete_fn' 'zqmpi' 'mpi_comm_null_delete_fn' 1 ((
+PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL
+SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+182 'mpi_comm_self' 'zqmpi' 'mpi_comm_self' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+183 'mpi_comm_world' 'zqmpi' 'mpi_comm_world' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () ()
+() 0 0)
+184 'mpi_complex' 'zqmpi' 'mpi_complex' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '18') () 0 () () () 0 0)
+185 'mpi_complex16' 'zqmpi' 'mpi_complex16' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '20') () 0 () () () 0 0)
+186 'mpi_complex32' 'zqmpi' 'mpi_complex32' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '21') () 0 () () () 0 0)
+187 'mpi_complex8' 'zqmpi' 'mpi_complex8' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '19') () 0 () () () 0 0)
+188 'mpi_congruent' 'zqmpi' 'mpi_congruent' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+189 'mpi_conversion_fn_null' 'zqmpi' 'mpi_conversion_fn_null' 1 ((
+PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL
+SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+190 'mpi_datatype_null' 'zqmpi' 'mpi_datatype_null' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () ()
+() 0 0)
+191 'mpi_displacement_current' 'zqmpi' 'mpi_displacement_current' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'-54278278') () 0 () () () 0 0)
+192 'mpi_distribute_block' 'zqmpi' 'mpi_distribute_block' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () ()
+() 0 0)
+193 'mpi_distribute_cyclic' 'zqmpi' 'mpi_distribute_cyclic' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') () 0 () () () 0 0)
+194 'mpi_distribute_dflt_darg' 'zqmpi' 'mpi_distribute_dflt_darg' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'-1') () 0 () () () 0 0)
+195 'mpi_distribute_none' 'zqmpi' 'mpi_distribute_none' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () ()
+() 0 0)
+196 'mpi_double_complex' 'zqmpi' 'mpi_double_complex' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '22') () 0 ()
+() () 0 0)
+197 'mpi_double_precision' 'zqmpi' 'mpi_double_precision' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '17') () 0 ()
+() () 0 0)
+198 'mpi_dup_fn' 'zqmpi' 'mpi_dup_fn' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+199 'mpi_err_access' 'zqmpi' 'mpi_err_access' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '20') () 0 ()
+() () 0 0)
+200 'mpi_err_amode' 'zqmpi' 'mpi_err_amode' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '21') () 0 () () () 0 0)
+201 'mpi_err_arg' 'zqmpi' 'mpi_err_arg' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '13') () 0 () () () 0 0)
+202 'mpi_err_assert' 'zqmpi' 'mpi_err_assert' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '22') () 0 ()
+() () 0 0)
+203 'mpi_err_bad_file' 'zqmpi' 'mpi_err_bad_file' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '23') () 0 ()
+() () 0 0)
+204 'mpi_err_base' 'zqmpi' 'mpi_err_base' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '24') () 0 () () () 0 0)
+205 'mpi_err_buffer' 'zqmpi' 'mpi_err_buffer' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+206 'mpi_err_comm' 'zqmpi' 'mpi_err_comm' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '5') () 0 () () () 0 0)
+207 'mpi_err_conversion' 'zqmpi' 'mpi_err_conversion' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '25') () 0 ()
+() () 0 0)
+208 'mpi_err_count' 'zqmpi' 'mpi_err_count' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+209 'mpi_err_dims' 'zqmpi' 'mpi_err_dims' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '12') () 0 () () () 0 0)
+210 'mpi_err_disp' 'zqmpi' 'mpi_err_disp' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '26') () 0 () () () 0 0)
+211 'mpi_err_dup_datarep' 'zqmpi' 'mpi_err_dup_datarep' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '27') () 0 ()
+() () 0 0)
+212 'mpi_err_file' 'zqmpi' 'mpi_err_file' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '30') () 0 () () () 0 0)
+213 'mpi_err_file_exists' 'zqmpi' 'mpi_err_file_exists' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '28') () 0 ()
+() () 0 0)
+214 'mpi_err_file_in_use' 'zqmpi' 'mpi_err_file_in_use' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '29') () 0 ()
+() () 0 0)
+215 'mpi_err_group' 'zqmpi' 'mpi_err_group' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '9') () 0 () () () 0 0)
+216 'mpi_err_in_status' 'zqmpi' 'mpi_err_in_status' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '18') () 0 ()
+() () 0 0)
+217 'mpi_err_info' 'zqmpi' 'mpi_err_info' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '34') () 0 () () () 0 0)
+218 'mpi_err_info_key' 'zqmpi' 'mpi_err_info_key' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '31') () 0 ()
+() () 0 0)
+219 'mpi_err_info_nokey' 'zqmpi' 'mpi_err_info_nokey' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '32') () 0 ()
+() () 0 0)
+220 'mpi_err_info_value' 'zqmpi' 'mpi_err_info_value' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '33') () 0 ()
+() () 0 0)
+221 'mpi_err_intern' 'zqmpi' 'mpi_err_intern' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '17') () 0 ()
+() () 0 0)
+222 'mpi_err_io' 'zqmpi' 'mpi_err_io' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '35') () 0 () () () 0 0)
+223 'mpi_err_keyval' 'zqmpi' 'mpi_err_keyval' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '36') () 0 ()
+() () 0 0)
+224 'mpi_err_lastcode' 'zqmpi' 'mpi_err_lastcode' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '54') () 0 ()
+() () 0 0)
+225 'mpi_err_locktype' 'zqmpi' 'mpi_err_locktype' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '37') () 0 ()
+() () 0 0)
+226 'mpi_err_name' 'zqmpi' 'mpi_err_name' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '38') () 0 () () () 0 0)
+227 'mpi_err_no_mem' 'zqmpi' 'mpi_err_no_mem' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '39') () 0 ()
+() () 0 0)
+228 'mpi_err_no_space' 'zqmpi' 'mpi_err_no_space' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '41') () 0 ()
+() () 0 0)
+229 'mpi_err_no_such_file' 'zqmpi' 'mpi_err_no_such_file' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '42') () 0 ()
+() () 0 0)
+230 'mpi_err_not_same' 'zqmpi' 'mpi_err_not_same' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '40') () 0 ()
+() () 0 0)
+231 'mpi_err_op' 'zqmpi' 'mpi_err_op' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10') () 0 () () () 0 0)
+232 'mpi_err_other' 'zqmpi' 'mpi_err_other' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '16') () 0 () () () 0 0)
+233 'mpi_err_pending' 'zqmpi' 'mpi_err_pending' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '19') () 0 ()
+() () 0 0)
+234 'mpi_err_port' 'zqmpi' 'mpi_err_port' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '43') () 0 () () () 0 0)
+235 'mpi_err_quota' 'zqmpi' 'mpi_err_quota' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '44') () 0 () () () 0 0)
+236 'mpi_err_rank' 'zqmpi' 'mpi_err_rank' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6') () 0 () () () 0 0)
+237 'mpi_err_read_only' 'zqmpi' 'mpi_err_read_only' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '45') () 0 ()
+() () 0 0)
+238 'mpi_err_request' 'zqmpi' 'mpi_err_request' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '7') () 0 () ()
+() 0 0)
+239 'mpi_err_rma_conflict' 'zqmpi' 'mpi_err_rma_conflict' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '46') () 0 ()
+() () 0 0)
+240 'mpi_err_rma_sync' 'zqmpi' 'mpi_err_rma_sync' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '47') () 0 ()
+() () 0 0)
+241 'mpi_err_root' 'zqmpi' 'mpi_err_root' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '8') () 0 () () () 0 0)
+242 'mpi_err_service' 'zqmpi' 'mpi_err_service' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '48') () 0 ()
+() () 0 0)
+243 'mpi_err_size' 'zqmpi' 'mpi_err_size' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '49') () 0 () () () 0 0)
+244 'mpi_err_spawn' 'zqmpi' 'mpi_err_spawn' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '50') () 0 () () () 0 0)
+245 'mpi_err_sysresource' 'zqmpi' 'mpi_err_sysresource' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '-2') () 0 ()
+() () 0 0)
+246 'mpi_err_tag' 'zqmpi' 'mpi_err_tag' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '4') () 0 () () () 0 0)
+247 'mpi_err_topology' 'zqmpi' 'mpi_err_topology' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '11') () 0 ()
+() () 0 0)
+248 'mpi_err_truncate' 'zqmpi' 'mpi_err_truncate' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '15') () 0 ()
+() () 0 0)
+249 'mpi_err_type' 'zqmpi' 'mpi_err_type' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3') () 0 () () () 0 0)
+250 'mpi_err_unknown' 'zqmpi' 'mpi_err_unknown' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '14') () 0 ()
+() () 0 0)
+251 'mpi_err_unsupported_datarep' 'zqmpi' 'mpi_err_unsupported_datarep'
+1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'51') () 0 () () () 0 0)
+252 'mpi_err_unsupported_operation' 'zqmpi'
+'mpi_err_unsupported_operation' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '52') () 0 () () () 0 0)
+253 'mpi_err_win' 'zqmpi' 'mpi_err_win' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '53') () 0 () () () 0 0)
+36 'mpi_errcodes_ignore' 'zqmpi' 'mpi_errcodes_ignore' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION IN_COMMON) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1')) 0 () ()
+() 0 0)
+254 'mpi_errhandler_null' 'zqmpi' 'mpi_errhandler_null' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () ()
+() 0 0)
+255 'mpi_error' 'zqmpi' 'mpi_error' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3') () 0 () () () 0 0)
+256 'mpi_errors_are_fatal' 'zqmpi' 'mpi_errors_are_fatal' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+257 'mpi_errors_return' 'zqmpi' 'mpi_errors_return' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () ()
+() 0 0)
+258 'mpi_file_null' 'zqmpi' 'mpi_file_null' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () () () 0 0)
+259 'mpi_graph' 'zqmpi' 'mpi_graph' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+260 'mpi_group_empty' 'zqmpi' 'mpi_group_empty' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+261 'mpi_group_null' 'zqmpi' 'mpi_group_null' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () ()
+() 0 0)
+262 'mpi_host' 'zqmpi' 'mpi_host' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+263 'mpi_ident' 'zqmpi' 'mpi_ident' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () () () 0 0)
+37 'mpi_in_place' 'zqmpi' 'mpi_in_place' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 IN_COMMON) (INTEGER 4 0 0 INTEGER ()) 0
+0 () () 0 () () () 0 0)
+264 'mpi_info_null' 'zqmpi' 'mpi_info_null' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () () () 0 0)
+265 'mpi_integer' 'zqmpi' 'mpi_integer' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '7') () 0 () () () 0 0)
+266 'mpi_integer1' 'zqmpi' 'mpi_integer1' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '8') () 0 () () () 0 0)
+267 'mpi_integer16' 'zqmpi' 'mpi_integer16' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '12') () 0 () () () 0 0)
+268 'mpi_integer2' 'zqmpi' 'mpi_integer2' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '9') () 0 () () () 0 0)
+269 'mpi_integer4' 'zqmpi' 'mpi_integer4' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '10') () 0 () () () 0 0)
+270 'mpi_integer8' 'zqmpi' 'mpi_integer8' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '11') () 0 () () () 0 0)
+271 'mpi_integer_kind' 'zqmpi' 'mpi_integer_kind' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '4') () 0 () ()
+() 0 0)
+272 'mpi_io' 'zqmpi' 'mpi_io' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+273 'mpi_keyval_invalid' 'zqmpi' 'mpi_keyval_invalid' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '-1') () 0 ()
+() () 0 0)
+274 'mpi_land' 'zqmpi' 'mpi_land' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '5') () 0 () () () 0 0)
+275 'mpi_lastusedcode' 'zqmpi' 'mpi_lastusedcode' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '5') () 0 () ()
+() 0 0)
+276 'mpi_lb' 'zqmpi' 'mpi_lb' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '4') () 0 () () () 0 0)
+277 'mpi_lock_exclusive' 'zqmpi' 'mpi_lock_exclusive' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+278 'mpi_lock_shared' 'zqmpi' 'mpi_lock_shared' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () ()
+() 0 0)
+279 'mpi_logical' 'zqmpi' 'mpi_logical' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6') () 0 () () () 0 0)
+280 'mpi_logical1' 'zqmpi' 'mpi_logical1' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '29') () 0 () () () 0 0)
+281 'mpi_logical2' 'zqmpi' 'mpi_logical2' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '30') () 0 () () () 0 0)
+282 'mpi_logical4' 'zqmpi' 'mpi_logical4' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '31') () 0 () () () 0 0)
+283 'mpi_logical8' 'zqmpi' 'mpi_logical8' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '32') () 0 () () () 0 0)
+284 'mpi_lor' 'zqmpi' 'mpi_lor' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '7') () 0 () () () 0 0)
+285 'mpi_lxor' 'zqmpi' 'mpi_lxor' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '9') () 0 () () () 0 0)
+286 'mpi_max' 'zqmpi' 'mpi_max' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+287 'mpi_max_datarep_string' 'zqmpi' 'mpi_max_datarep_string' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'127') () 0 () () () 0 0)
+288 'mpi_max_error_string' 'zqmpi' 'mpi_max_error_string' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '255') () 0 ()
+() () 0 0)
+289 'mpi_max_info_key' 'zqmpi' 'mpi_max_info_key' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '35') () 0 ()
+() () 0 0)
+290 'mpi_max_info_val' 'zqmpi' 'mpi_max_info_val' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '255') () 0 ()
+() () 0 0)
+291 'mpi_max_object_name' 'zqmpi' 'mpi_max_object_name' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '63') () 0 ()
+() () 0 0)
+292 'mpi_max_port_name' 'zqmpi' 'mpi_max_port_name' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1023') () 0 ()
+() () 0 0)
+293 'mpi_max_processor_name' 'zqmpi' 'mpi_max_processor_name' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'255') () 0 () () () 0 0)
+294 'mpi_maxloc' 'zqmpi' 'mpi_maxloc' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '11') () 0 () () () 0 0)
+295 'mpi_min' 'zqmpi' 'mpi_min' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+296 'mpi_minloc' 'zqmpi' 'mpi_minloc' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '12') () 0 () () () 0 0)
+297 'mpi_mode_append' 'zqmpi' 'mpi_mode_append' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '128') () 0 ()
+() () 0 0)
+298 'mpi_mode_create' 'zqmpi' 'mpi_mode_create' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+299 'mpi_mode_delete_on_close' 'zqmpi' 'mpi_mode_delete_on_close' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'16') () 0 () () () 0 0)
+300 'mpi_mode_excl' 'zqmpi' 'mpi_mode_excl' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '64') () 0 () () () 0 0)
+301 'mpi_mode_nocheck' 'zqmpi' 'mpi_mode_nocheck' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+302 'mpi_mode_noprecede' 'zqmpi' 'mpi_mode_noprecede' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () ()
+() 0 0)
+303 'mpi_mode_noput' 'zqmpi' 'mpi_mode_noput' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '4') () 0 () ()
+() 0 0)
+304 'mpi_mode_nostore' 'zqmpi' 'mpi_mode_nostore' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '8') () 0 () ()
+() 0 0)
+305 'mpi_mode_nosucceed' 'zqmpi' 'mpi_mode_nosucceed' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '16') () 0 ()
+() () 0 0)
+306 'mpi_mode_rdonly' 'zqmpi' 'mpi_mode_rdonly' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () ()
+() 0 0)
+307 'mpi_mode_rdwr' 'zqmpi' 'mpi_mode_rdwr' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '8') () 0 () () () 0 0)
+308 'mpi_mode_sequential' 'zqmpi' 'mpi_mode_sequential' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '256') () 0 ()
+() () 0 0)
+309 'mpi_mode_unique_open' 'zqmpi' 'mpi_mode_unique_open' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '32') () 0 ()
+() () 0 0)
+310 'mpi_mode_wronly' 'zqmpi' 'mpi_mode_wronly' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '4') () 0 () ()
+() 0 0)
+311 'mpi_null_copy_fn' 'zqmpi' 'mpi_null_copy_fn' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+312 'mpi_null_delete_fn' 'zqmpi' 'mpi_null_delete_fn' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+313 'mpi_offset_kind' 'zqmpi' 'mpi_offset_kind' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '8') () 0 () ()
+() 0 0)
+314 'mpi_op_null' 'zqmpi' 'mpi_op_null' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () () () 0 0)
+315 'mpi_order_c' 'zqmpi' 'mpi_order_c' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () () () 0 0)
+316 'mpi_order_fortran' 'zqmpi' 'mpi_order_fortran' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+317 'mpi_packed' 'zqmpi' 'mpi_packed' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+318 'mpi_proc_null' 'zqmpi' 'mpi_proc_null' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '-2') () 0 () () () 0 0)
+319 'mpi_prod' 'zqmpi' 'mpi_prod' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '4') () 0 () () () 0 0)
+320 'mpi_real' 'zqmpi' 'mpi_real' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '13') () 0 () () () 0 0)
+321 'mpi_real16' 'zqmpi' 'mpi_real16' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '16') () 0 () () () 0 0)
+322 'mpi_real2' 'zqmpi' 'mpi_real2' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '28') () 0 () () () 0 0)
+323 'mpi_real4' 'zqmpi' 'mpi_real4' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '14') () 0 () () () 0 0)
+324 'mpi_real8' 'zqmpi' 'mpi_real8' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '15') () 0 () () () 0 0)
+325 'mpi_replace' 'zqmpi' 'mpi_replace' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '13') () 0 () () () 0 0)
+326 'mpi_request_null' 'zqmpi' 'mpi_request_null' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () ()
+() 0 0)
+327 'mpi_root' 'zqmpi' 'mpi_root' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '-4') () 0 () () () 0 0)
+328 'mpi_seek_cur' 'zqmpi' 'mpi_seek_cur' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '602') () 0 () () () 0 0)
+329 'mpi_seek_end' 'zqmpi' 'mpi_seek_end' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '604') () 0 () () () 0 0)
+330 'mpi_seek_set' 'zqmpi' 'mpi_seek_set' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '600') () 0 () () () 0 0)
+331 'mpi_similar' 'zqmpi' 'mpi_similar' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+332 'mpi_source' 'zqmpi' 'mpi_source' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () () () 0 0)
+38 'mpi_status_ignore' 'zqmpi' 'mpi_status_ignore' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION IN_COMMON) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6')) 0 () ()
+() 0 0)
+333 'mpi_status_size' 'zqmpi' 'mpi_status_size' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6') () 0 () ()
+() 0 0)
+39 'mpi_statuses_ignore' 'zqmpi' 'mpi_statuses_ignore' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 IN_COMMON) (REAL 8 0 0
+REAL ()) 0 0 () () 0 () () () 0 0)
+334 'mpi_subversion' 'zqmpi' 'mpi_subversion' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+335 'mpi_success' 'zqmpi' 'mpi_success' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () () () 0 0)
+336 'mpi_sum' 'zqmpi' 'mpi_sum' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3') () 0 () () () 0 0)
+337 'mpi_tag' 'zqmpi' 'mpi_tag' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+338 'mpi_tag_ub' 'zqmpi' 'mpi_tag_ub' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () () () 0 0)
+339 'mpi_thread_funneled' 'zqmpi' 'mpi_thread_funneled' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+340 'mpi_thread_multiple' 'zqmpi' 'mpi_thread_multiple' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3') () 0 () ()
+() 0 0)
+341 'mpi_thread_serialized' 'zqmpi' 'mpi_thread_serialized' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'2') () 0 () () () 0 0)
+342 'mpi_thread_single' 'zqmpi' 'mpi_thread_single' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () ()
+() 0 0)
+343 'mpi_type_dup_fn' 'zqmpi' 'mpi_type_dup_fn' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+344 'mpi_type_null_copy_fn' 'zqmpi' 'mpi_type_null_copy_fn' 1 ((
+PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL
+SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+345 'mpi_type_null_delete_fn' 'zqmpi' 'mpi_type_null_delete_fn' 1 ((
+PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL
+SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+346 'mpi_typeclass_complex' 'zqmpi' 'mpi_typeclass_complex' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'3') () 0 () () () 0 0)
+347 'mpi_typeclass_integer' 'zqmpi' 'mpi_typeclass_integer' 1 ((
+PARAMETER UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (
+INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') () 0 () () () 0 0)
+348 'mpi_typeclass_real' 'zqmpi' 'mpi_typeclass_real' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () ()
+() 0 0)
+349 'mpi_ub' 'zqmpi' 'mpi_ub' 1 ((PARAMETER UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '3') () 0 () () () 0 0)
+350 'mpi_undefined' 'zqmpi' 'mpi_undefined' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '-32766') () 0 () () () 0 0)
+351 'mpi_unequal' 'zqmpi' 'mpi_unequal' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3') () 0 () () () 0 0)
+352 'mpi_universe_size' 'zqmpi' 'mpi_universe_size' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6') () 0 () ()
+() 0 0)
+353 'mpi_version' 'zqmpi' 'mpi_version' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2') () 0 () () () 0 0)
+354 'mpi_win_base' 'zqmpi' 'mpi_win_base' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '7') () 0 () () () 0 0)
+355 'mpi_win_disp_unit' 'zqmpi' 'mpi_win_disp_unit' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '9') () 0 () ()
+() 0 0)
+356 'mpi_win_dup_fn' 'zqmpi' 'mpi_win_dup_fn' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+357 'mpi_win_null' 'zqmpi' 'mpi_win_null' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () () () 0 0)
+358 'mpi_win_null_copy_fn' 'zqmpi' 'mpi_win_null_copy_fn' 1 ((PROCEDURE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL SUBROUTINE) (
+UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+359 'mpi_win_null_delete_fn' 'zqmpi' 'mpi_win_null_delete_fn' 1 ((
+PROCEDURE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL
+SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+360 'mpi_win_size' 'zqmpi' 'mpi_win_size' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '8') () 0 () () () 0 0)
+361 'mpi_wtick' 'zqmpi' 'mpi_wtick' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL FUNCTION) (REAL 8 0 0 REAL ())
+0 0 () () 0 () () () 0 0)
+362 'mpi_wtime' 'zqmpi' 'mpi_wtime' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL FUNCTION) (REAL 8 0 0 REAL ())
+0 0 () () 0 () () () 0 0)
+363 'mpi_wtime_is_global' 'zqmpi' 'mpi_wtime_is_global' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3') () 0 () ()
+() 0 0)
+364 'numscrew' 'crossslipmd' 'numscrew' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0
+() () () 0 0)
+365 'ompi_greek_version' 'zqmpi' 'ompi_greek_version' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (CHARACTER 1 0 0
+CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '32'))) 0 0 () (
+CONSTANT (CHARACTER 1 0 0 CHARACTER (())) 0 32
+'                                ') () 0 () () () 0 0)
+366 'ompi_major_version' 'zqmpi' 'ompi_major_version' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') () 0 () ()
+() 0 0)
+367 'ompi_minor_version' 'zqmpi' 'ompi_minor_version' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '5') () 0 () ()
+() 0 0)
+368 'ompi_release_version' 'zqmpi' 'ompi_release_version' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0
+INTEGER ()) 0 0 () (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '0') () 0 () ()
+() 0 0)
+369 'ompi_svn_version' 'zqmpi' 'ompi_svn_version' 1 ((PARAMETER
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (CHARACTER 1 0 0
+CHARACTER ((CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '32'))) 0 0 () (
+CONSTANT (CHARACTER 1 0 0 CHARACTER (())) 0 32
+'r23862                          ') () 0 () () () 0 0)
+370 'pmpi_wtick' 'zqmpi' 'pmpi_wtick' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL FUNCTION) (REAL 8 0 0 REAL ())
+0 0 () () 0 () () () 0 0)
+371 'pmpi_wtime' 'zqmpi' 'pmpi_wtime' 1 ((PROCEDURE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 EXTERNAL FUNCTION) (REAL 8 0 0 REAL ())
+0 0 () () 0 () () () 0 0)
+372 'pscrew' 'crossslipmd' 'pscrew' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION) (DERIVED 49 0 0 DERIVED ())
+0 0 () (2 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2')) 0 () ()
+() 0 0)
+8 'real_times_m1' 'vectors' 'real_times_m1' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 114 0 0 DERIVED ()) 373
+0 (374 375) () 8 () () () 0 0)
+9 'real_times_t1' 'vectors' 'real_times_t1' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 127 0 0 DERIVED ()) 376
+0 (377 378) () 9 () () () 0 0)
+13 'real_times_v1' 'vectors' 'real_times_v1' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 49 0 0
+DERIVED ()) 379 0 (380 381) () 13 () () () 0 0)
+382 'screwn' 'crossslipmd' 'screwn' 1 ((PARAMETER UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+(CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6') () 0 () () () 0 0)
+383 'segscrew' 'crossslipmd' 'segscrew' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION) (INTEGER 4 0 0 INTEGER ()) 0
+0 () (2 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '6') (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2')) 0 () ()
+() 0 0)
+18 't1_div_real' 'vectors' 't1_div_real' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 127 0 0 DERIVED ()) 384
+0 (385 386) () 18 () () () 0 0)
+5 't1_minus_t2' 'vectors' 't1_minus_t2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 127 0 0 DERIVED ()) 387
+0 (388 389) () 5 () () () 0 0)
+10 't1_mul_v2' 'vectors' 't1_mul_v2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 114 0 0 DERIVED ()) 390
+0 (391 392) () 10 () () () 0 0)
+2 't1_plus_t2' 'vectors' 't1_plus_t2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 127 0 0 DERIVED ()) 393
+0 (394 395) () 2 () () () 0 0)
+396 'tauiii' 'crossslipmd' 'tauiii' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN IMPLICIT-SAVE 0 0) (REAL 8 0 0 REAL ()) 0 0 () () 0
+() () () 0 0)
+127 'tensor' 'vectors' 'tensor' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ((397 'v' (
+DERIVED 114 0 0 DERIVED ()) (1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0
+INTEGER ()) 0 '1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3')) (
+UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION)
+UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0 46846892)
+21 'theta_rotate_v1' 'vectors' 'theta_rotate_v1' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 49 0 0
+DERIVED ()) 398 0 (399 400) () 21 () () () 0 0)
+401 'trans' 'vectors' 'trans' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+DECL UNKNOWN 0 0 FUNCTION) (DERIVED 114 0 0 DERIVED ()) 402 0 (403) ()
+401 () () () 0 0)
+404 'tvlastscrewpoint' 'crossslipmd' 'tvlastscrewpoint' 1 ((VARIABLE
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) (DERIVED 49 0 0 DERIVED
+()) 0 0 () () 0 () () () 0 0)
+405 'tvtmppl' 'crossslipmd' 'tvtmppl' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION) (DERIVED 44 0 0 DERIVED ())
+0 0 () (1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (
+CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '200')) 0 () () () 0 0)
+406 'uscrew' 'crossslipmd' 'uscrew' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION) (REAL 8 0 0 REAL ()) 0 0 ()
+(2 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (CONSTANT (
+INTEGER 4 0 0 INTEGER ()) 0 '6') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '2')) 0 () () () 0 0)
+407 'uv' 'vectors' 'uv' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC DECL
+UNKNOWN 0 0 FUNCTION) (DERIVED 49 0 0 DERIVED ()) 408 0 (409) () 407 ()
+() () 0 0)
+22 'v1_cross_v2' 'vectors' 'v1_cross_v2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 49 0 0 DERIVED ()) 410 0
+(411 412) () 22 () () () 0 0)
+20 'v1_div_real' 'vectors' 'v1_div_real' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 49 0 0 DERIVED ()) 413 0
+(414 415) () 20 () () () 0 0)
+14 'v1_dot_v2' 'vectors' 'v1_dot_v2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (REAL 8 0 0 REAL ()) 416 0 (417
+418) () 14 () () () 0 0)
+7 'v1_minus_v2' 'vectors' 'v1_minus_v2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 49 0 0 DERIVED ()) 419 0
+(420 421) () 7 () () () 0 0)
+15 'v1_outerproduct_m2' 'vectors' 'v1_outerproduct_m2' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 127 0 0
+DERIVED ()) 422 0 (423 424) () 15 () () () 0 0)
+17 'v1_outerproduct_v2' 'vectors' 'v1_outerproduct_v2' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 114 0 0
+DERIVED ()) 425 0 (426 427) () 17 () () () 0 0)
+4 'v1_plus_v2' 'vectors' 'v1_plus_v2' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 FUNCTION) (DERIVED 49 0 0 DERIVED ()) 428 0
+(429 430) () 4 () () () 0 0)
+431 'vect' 'vectors' 'vect' 1 ((PROCEDURE UNKNOWN-INTENT MODULE-PROC
+DECL UNKNOWN 0 0 FUNCTION) (DERIVED 49 0 0 DERIVED ()) 432 0 (433 434) ()
+431 () () () 0 0)
+49 'vector' 'vectors' 'vector' 1 ((DERIVED UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 ((435 'v' (
+REAL 8 0 0 REAL ()) (1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0
+'1') (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '3')) (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION)
+UNKNOWN-ACCESS ())) PUBLIC (() () () ()) () 0 0 2598262)
+436 'vectors' 'vectors' 'vectors' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+437 'zqmpi' 'zqmpi' 'zqmpi' 1 ((MODULE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+24 'zqmpi_bcastd' 'zqmpi' 'zqmpi_bcastd' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 438
+0 (439 440 441) () 0 () () () 0 0)
+25 'zqmpi_bcasti' 'zqmpi' 'zqmpi_bcasti' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 442
+0 (443 444 445) () 0 () () () 0 0)
+26 'zqmpi_bcastl' 'zqmpi' 'zqmpi_bcastl' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 446
+0 (447 448 449) () 0 () () () 0 0)
+450 'zqmpi_clean' 'zqmpi' 'zqmpi_clean' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0
+() () 0 () () () 0 0)
+451 'zqmpi_finalization' 'zqmpi' 'zqmpi_finalization' 1 ((PROCEDURE
+UNKNOWN-INTENT MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0
+UNKNOWN ()) 0 0 () () 0 () () () 0 0)
+452 'zqmpi_init' 'zqmpi' 'zqmpi_init' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 0 0
+() () 0 () () () 0 0)
+27 'zqmpi_isendd' 'zqmpi' 'zqmpi_isendd' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE ALWAYS_EXPLICIT) (UNKNOWN 0 0 0
+UNKNOWN ()) 453 0 (454 455 456 457) () 0 () () () 0 0)
+28 'zqmpi_isendi' 'zqmpi' 'zqmpi_isendi' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE ALWAYS_EXPLICIT) (UNKNOWN 0 0 0
+UNKNOWN ()) 458 0 (459 460 461 462) () 0 () () () 0 0)
+29 'zqmpi_isendl' 'zqmpi' 'zqmpi_isendl' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE ALWAYS_EXPLICIT) (UNKNOWN 0 0 0
+UNKNOWN ()) 463 0 (464 465 466 467) () 0 () () () 0 0)
+30 'zqmpi_recvd' 'zqmpi' 'zqmpi_recvd' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 468
+0 (469 470 471 472) () 0 () () () 0 0)
+31 'zqmpi_recvi' 'zqmpi' 'zqmpi_recvi' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 473
+0 (474 475 476 477) () 0 () () () 0 0)
+32 'zqmpi_recvl' 'zqmpi' 'zqmpi_recvl' 1 ((PROCEDURE UNKNOWN-INTENT
+MODULE-PROC DECL UNKNOWN 0 0 SUBROUTINE) (UNKNOWN 0 0 0 UNKNOWN ()) 478
+0 (479 480 481 482) () 0 () () () 0 0)
+483 'zqmpi_sndrcv' 'zqmpi' 'zqmpi_sndrcv' 1 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 ALLOCATABLE DIMENSION) (DERIVED 484 0 0
+DERIVED ()) 0 0 () (1 0 DEFERRED () ()) 0 () () () 0 0)
+484 'zqmpidata' 'zqmpi' 'zqmpidata' 1 ((DERIVED UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 POINTER_COMP) (UNKNOWN 0 0 0 UNKNOWN ())
+0 0 () () 0 ((485 'itypetag' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (
+486 'idessrc' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (487 'inumdata' (
+INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0) UNKNOWN-ACCESS ()) (488 'impitag' (INTEGER 4 0 0
+INTEGER ()) () (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0
+0) UNKNOWN-ACCESS ()) (489 'lalogdata' (LOGICAL 4 0 0 LOGICAL ()) (1 0
+DEFERRED () ()) (UNKNOWN-FL UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DIMENSION POINTER) UNKNOWN-ACCESS ()) (490 'iaintdata' (INTEGER 4 0
+0 INTEGER ()) (1 0 DEFERRED () ()) (UNKNOWN-FL UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION POINTER) UNKNOWN-ACCESS ()) (
+491 'dpadpdata' (REAL 8 0 0 REAL ()) (1 0 DEFERRED () ()) (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DIMENSION POINTER)
+UNKNOWN-ACCESS ()) (492 'req' (INTEGER 4 0 0 INTEGER ()) () (UNKNOWN-FL
+UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 POINTER) UNKNOWN-ACCESS
+())) PUBLIC (() () () ()) () 0 0 72760805)
+116 'a' '' 'a' 115 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+117 'b' '' 'b' 115 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+481 'tmpsr' '' 'tmpsr' 478 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+480 'tmpnum' '' 'tmpnum' 478 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+129 'a' '' 'a' 128 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+130 'b' '' 'b' 128 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+126 'b' '' 'b' 124 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+439 'tmpdata' '' 'tmpdata' 438 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION DUMMY) (REAL 8 0 0 REAL ()) 0 0 () (1 0
+EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER
+4 0 0 INTEGER ()) 0 440 ())) 0 () () () 0 0)
+443 'tmpdata' '' 'tmpdata' 442 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (
+INTEGER 4 0 0 INTEGER ()) 0 444 ())) 0 () () () 0 0)
+441 'tmpsr' '' 'tmpsr' 438 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+444 'tmpnum' '' 'tmpnum' 442 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+448 'tmpnum' '' 'tmpnum' 446 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+447 'tmpdata' '' 'tmpdata' 446 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () (
+1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (
+INTEGER 4 0 0 INTEGER ()) 0 448 ())) 0 () () () 0 0)
+449 'tmpsr' '' 'tmpsr' 446 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+454 'tmpdata' '' 'tmpdata' 453 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION POINTER DUMMY) (REAL 8 0 0 REAL ()) 0 0 ()
+(1 0 DEFERRED () ()) 0 () () () 0 0)
+455 'tmpnum' '' 'tmpnum' 453 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+457 'tmptag' '' 'tmptag' 453 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+456 'tmpdessrc' '' 'tmpdessrc' 453 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+() 0 () () () 0 0)
+459 'tmpdata' '' 'tmpdata' 458 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION POINTER DUMMY) (INTEGER 4 0 0 INTEGER ())
+0 0 () (1 0 DEFERRED () ()) 0 () () () 0 0)
+461 'tmpdessrc' '' 'tmpdessrc' 458 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+() 0 () () () 0 0)
+462 'tmptag' '' 'tmptag' 458 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+465 'tmpnum' '' 'tmpnum' 463 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+467 'tmptag' '' 'tmptag' 463 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+469 'tmpdata' '' 'tmpdata' 468 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION DUMMY) (REAL 8 0 0 REAL ()) 0 0 () (1 0
+EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (INTEGER
+4 0 0 INTEGER ()) 0 470 ())) 0 () () () 0 0)
+470 'tmpnum' '' 'tmpnum' 468 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+474 'tmpdata' '' 'tmpdata' 473 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () (
+1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (
+INTEGER 4 0 0 INTEGER ()) 0 475 ())) 0 () () () 0 0)
+475 'tmpnum' '' 'tmpnum' 473 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+476 'tmpsr' '' 'tmpsr' 473 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+472 'tmptag' '' 'tmptag' 468 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+477 'tmptag' '' 'tmptag' 473 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+471 'tmpsr' '' 'tmpsr' 468 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+466 'tmpdessrc' '' 'tmpdessrc' 463 ((VARIABLE UNKNOWN-INTENT
+UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 ()
+() 0 () () () 0 0)
+464 'tmpdata' '' 'tmpdata' 463 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION POINTER DUMMY) (LOGICAL 4 0 0 LOGICAL ())
+0 0 () (1 0 DEFERRED () ()) 0 () () () 0 0)
+460 'tmpnum' '' 'tmpnum' 458 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+445 'tmpsr' '' 'tmpsr' 442 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+440 'tmpnum' '' 'tmpnum' 438 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+479 'tmpdata' '' 'tmpdata' 478 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DIMENSION DUMMY) (LOGICAL 4 0 0 LOGICAL ()) 0 0 () (
+1 0 EXPLICIT (CONSTANT (INTEGER 4 0 0 INTEGER ()) 0 '1') (VARIABLE (
+INTEGER 4 0 0 INTEGER ()) 0 480 ())) 0 () () () 0 0)
+374 'a' '' 'a' 373 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+377 'a' '' 'a' 376 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+378 'b' '' 'b' 376 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 127 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+380 'a' '' 'a' 379 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+381 'b' '' 'b' 379 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+386 'b' '' 'b' 384 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+385 'a' '' 'a' 384 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 127 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+389 'b' '' 'b' 387 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 127 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+388 'a' '' 'a' 387 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 127 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+391 'a' '' 'a' 390 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 127 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+482 'tmptag' '' 'tmptag' 478 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC
+UNKNOWN UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () ()
+() 0 0)
+136 'b' '' 'b' 134 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+135 'a' '' 'a' 134 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+120 'b' '' 'b' 118 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+123 'b' '' 'b' 121 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+122 'a' '' 'a' 121 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+125 'a' '' 'a' 124 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+119 'a' '' 'a' 118 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+394 'a' '' 'a' 393 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 127 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+392 'b' '' 'b' 390 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+400 'b' '' 'b' 398 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+403 'a' '' 'a' 402 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+399 'a' '' 'a' 398 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+411 'a' '' 'a' 410 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+412 'b' '' 'b' 410 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+414 'a' '' 'a' 413 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+418 'b' '' 'b' 416 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+417 'a' '' 'a' 416 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+415 'b' '' 'b' 413 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+421 'b' '' 'b' 419 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+423 'a' '' 'a' 422 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+424 'b' '' 'b' 422 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+427 'b' '' 'b' 425 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+430 'b' '' 'b' 428 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+434 'b' '' 'b' 432 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN
+UNKNOWN 0 0 DUMMY) (INTEGER 4 0 0 INTEGER ()) 0 0 () () 0 () () () 0 0)
+433 'a' '' 'a' 432 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 127 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+429 'a' '' 'a' 428 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+426 'a' '' 'a' 425 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+420 'a' '' 'a' 419 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+395 'b' '' 'b' 393 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 127 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+375 'b' '' 'b' 373 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+77 'c' '' 'c' 74 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DUMMY) (REAL 8 0 0 REAL ()) 0 0 () () 0 () () () 0 0)
+76 'b' '' 'b' 74 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DUMMY) (DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+75 'a' '' 'a' 74 ((VARIABLE UNKNOWN-INTENT UNKNOWN-PROC UNKNOWN UNKNOWN
+0 0 DUMMY) (DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+133 'b' '' 'b' 131 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+132 'a' '' 'a' 131 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 114 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+139 'a' '' 'a' 138 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+409 'a' '' 'a' 408 ((VARIABLE IN UNKNOWN-PROC UNKNOWN UNKNOWN 0 0 DUMMY)
+(DERIVED 49 0 0 DERIVED ()) 0 0 () () 0 () () () 0 0)
+)
+
+('__convert_i4_r8' 0 40 'beta' 0 41 'crossslipmd' 0 42 'csyn' 0 43
+'dispoint' 0 44 'dpcslength' 0 66 'dppointer' 0 67 'finalscrewmiller' 0
+69 'finalscrewn' 0 70 'finalscrewseg' 0 71 'finalscrewu' 0 72 'getuv' 0
+73 'glideplane' 0 78 'icscount' 0 83 'icsmiller' 0 84 'idoubletype' 0 85
+'iierr' 0 86 'iintegertype' 0 87 'ilogicaltype' 0 88 'imaster' 0 89
+'imaxnodedim' 0 90 'imaxnumzqsr' 0 91 'impi_client_color' 0 92
+'impi_client_size' 0 93 'impi_host_color' 0 94 'impi_host_size' 0 95
+'imyid' 0 96 'inumcsm' 0 97 'inumprocs' 0 98 'inumtotalscrew' 0 99
+'inumtotalscrew1' 0 100 'inumzqsr' 0 101 'istat' 0 102 'itmpburgers' 0
+103 'itmpindex' 0 104 'itmplooptype' 0 105 'itmpnewnump' 0 106 'itmpnump'
+0 107 'itmpplane' 0 108 'lcrossslip' 0 109 'length0' 0 110 'lscrewforce'
+0 111 'lscrewseg' 0 112 'ltoimplement' 0 113 'm1_div_real' 0 19
+'m1_minus_m2' 0 6 'm1_mul_m2' 0 11 'm1_mul_v2' 0 12 'm1_outerproduct1_v2'
+0 23 'm1_outerproduct_v2' 0 16 'm1_plus_m2' 0 3 'mag' 0 137 'matrix' 0
+114 'millerindex' 0 141 'mpi_2complex' 0 144 'mpi_2double_complex' 0 145
+'mpi_2double_precision' 0 146 'mpi_2integer' 0 147 'mpi_2real' 0 148
+'mpi_address_kind' 0 149 'mpi_any_source' 0 150 'mpi_any_tag' 0 151
+'mpi_appnum' 0 152 'mpi_argv_null' 0 33 'mpi_argvs_null' 0 34 'mpi_band'
+0 153 'mpi_bor' 0 154 'mpi_bottom' 0 35 'mpi_bsend_overhead' 0 155
+'mpi_bxor' 0 156 'mpi_byte' 0 157 'mpi_cart' 0 158 'mpi_character' 0 159
+'mpi_combiner_contiguous' 0 160 'mpi_combiner_darray' 0 161
+'mpi_combiner_dup' 0 162 'mpi_combiner_f90_complex' 0 163
+'mpi_combiner_f90_integer' 0 164 'mpi_combiner_f90_real' 0 165
+'mpi_combiner_hindexed' 0 166 'mpi_combiner_hindexed_integer' 0 167
+'mpi_combiner_hvector' 0 168 'mpi_combiner_hvector_integer' 0 169
+'mpi_combiner_indexed' 0 170 'mpi_combiner_indexed_block' 0 171
+'mpi_combiner_named' 0 172 'mpi_combiner_resized' 0 173
+'mpi_combiner_struct' 0 174 'mpi_combiner_struct_integer' 0 175
+'mpi_combiner_subarray' 0 176 'mpi_combiner_vector' 0 177
+'mpi_comm_dup_fn' 0 178 'mpi_comm_null' 0 179 'mpi_comm_null_copy_fn' 0
+180 'mpi_comm_null_delete_fn' 0 181 'mpi_comm_self' 0 182 'mpi_comm_world'
+0 183 'mpi_complex' 0 184 'mpi_complex16' 0 185 'mpi_complex32' 0 186
+'mpi_complex8' 0 187 'mpi_congruent' 0 188 'mpi_conversion_fn_null' 0
+189 'mpi_datatype_null' 0 190 'mpi_displacement_current' 0 191
+'mpi_distribute_block' 0 192 'mpi_distribute_cyclic' 0 193
+'mpi_distribute_dflt_darg' 0 194 'mpi_distribute_none' 0 195
+'mpi_double_complex' 0 196 'mpi_double_precision' 0 197 'mpi_dup_fn' 0
+198 'mpi_err_access' 0 199 'mpi_err_amode' 0 200 'mpi_err_arg' 0 201
+'mpi_err_assert' 0 202 'mpi_err_bad_file' 0 203 'mpi_err_base' 0 204
+'mpi_err_buffer' 0 205 'mpi_err_comm' 0 206 'mpi_err_conversion' 0 207
+'mpi_err_count' 0 208 'mpi_err_dims' 0 209 'mpi_err_disp' 0 210
+'mpi_err_dup_datarep' 0 211 'mpi_err_file' 0 212 'mpi_err_file_exists' 0
+213 'mpi_err_file_in_use' 0 214 'mpi_err_group' 0 215 'mpi_err_in_status'
+0 216 'mpi_err_info' 0 217 'mpi_err_info_key' 0 218 'mpi_err_info_nokey'
+0 219 'mpi_err_info_value' 0 220 'mpi_err_intern' 0 221 'mpi_err_io' 0
+222 'mpi_err_keyval' 0 223 'mpi_err_lastcode' 0 224 'mpi_err_locktype' 0
+225 'mpi_err_name' 0 226 'mpi_err_no_mem' 0 227 'mpi_err_no_space' 0 228
+'mpi_err_no_such_file' 0 229 'mpi_err_not_same' 0 230 'mpi_err_op' 0 231
+'mpi_err_other' 0 232 'mpi_err_pending' 0 233 'mpi_err_port' 0 234
+'mpi_err_quota' 0 235 'mpi_err_rank' 0 236 'mpi_err_read_only' 0 237
+'mpi_err_request' 0 238 'mpi_err_rma_conflict' 0 239 'mpi_err_rma_sync'
+0 240 'mpi_err_root' 0 241 'mpi_err_service' 0 242 'mpi_err_size' 0 243
+'mpi_err_spawn' 0 244 'mpi_err_sysresource' 0 245 'mpi_err_tag' 0 246
+'mpi_err_topology' 0 247 'mpi_err_truncate' 0 248 'mpi_err_type' 0 249
+'mpi_err_unknown' 0 250 'mpi_err_unsupported_datarep' 0 251
+'mpi_err_unsupported_operation' 0 252 'mpi_err_win' 0 253
+'mpi_errcodes_ignore' 0 36 'mpi_errhandler_null' 0 254 'mpi_error' 0 255
+'mpi_errors_are_fatal' 0 256 'mpi_errors_return' 0 257 'mpi_file_null' 0
+258 'mpi_graph' 0 259 'mpi_group_empty' 0 260 'mpi_group_null' 0 261
+'mpi_host' 0 262 'mpi_ident' 0 263 'mpi_in_place' 0 37 'mpi_info_null' 0
+264 'mpi_integer' 0 265 'mpi_integer1' 0 266 'mpi_integer16' 0 267
+'mpi_integer2' 0 268 'mpi_integer4' 0 269 'mpi_integer8' 0 270
+'mpi_integer_kind' 0 271 'mpi_io' 0 272 'mpi_keyval_invalid' 0 273
+'mpi_land' 0 274 'mpi_lastusedcode' 0 275 'mpi_lb' 0 276
+'mpi_lock_exclusive' 0 277 'mpi_lock_shared' 0 278 'mpi_logical' 0 279
+'mpi_logical1' 0 280 'mpi_logical2' 0 281 'mpi_logical4' 0 282
+'mpi_logical8' 0 283 'mpi_lor' 0 284 'mpi_lxor' 0 285 'mpi_max' 0 286
+'mpi_max_datarep_string' 0 287 'mpi_max_error_string' 0 288
+'mpi_max_info_key' 0 289 'mpi_max_info_val' 0 290 'mpi_max_object_name'
+0 291 'mpi_max_port_name' 0 292 'mpi_max_processor_name' 0 293
+'mpi_maxloc' 0 294 'mpi_min' 0 295 'mpi_minloc' 0 296 'mpi_mode_append'
+0 297 'mpi_mode_create' 0 298 'mpi_mode_delete_on_close' 0 299
+'mpi_mode_excl' 0 300 'mpi_mode_nocheck' 0 301 'mpi_mode_noprecede' 0
+302 'mpi_mode_noput' 0 303 'mpi_mode_nostore' 0 304 'mpi_mode_nosucceed'
+0 305 'mpi_mode_rdonly' 0 306 'mpi_mode_rdwr' 0 307 'mpi_mode_sequential'
+0 308 'mpi_mode_unique_open' 0 309 'mpi_mode_wronly' 0 310
+'mpi_null_copy_fn' 0 311 'mpi_null_delete_fn' 0 312 'mpi_offset_kind' 0
+313 'mpi_op_null' 0 314 'mpi_order_c' 0 315 'mpi_order_fortran' 0 316
+'mpi_packed' 0 317 'mpi_proc_null' 0 318 'mpi_prod' 0 319 'mpi_real' 0
+320 'mpi_real16' 0 321 'mpi_real2' 0 322 'mpi_real4' 0 323 'mpi_real8' 0
+324 'mpi_replace' 0 325 'mpi_request_null' 0 326 'mpi_root' 0 327
+'mpi_seek_cur' 0 328 'mpi_seek_end' 0 329 'mpi_seek_set' 0 330
+'mpi_similar' 0 331 'mpi_source' 0 332 'mpi_status_ignore' 0 38
+'mpi_status_size' 0 333 'mpi_statuses_ignore' 0 39 'mpi_subversion' 0
+334 'mpi_success' 0 335 'mpi_sum' 0 336 'mpi_tag' 0 337 'mpi_tag_ub' 0
+338 'mpi_thread_funneled' 0 339 'mpi_thread_multiple' 0 340
+'mpi_thread_serialized' 0 341 'mpi_thread_single' 0 342 'mpi_type_dup_fn'
+0 343 'mpi_type_null_copy_fn' 0 344 'mpi_type_null_delete_fn' 0 345
+'mpi_typeclass_complex' 0 346 'mpi_typeclass_integer' 0 347
+'mpi_typeclass_real' 0 348 'mpi_ub' 0 349 'mpi_undefined' 0 350
+'mpi_unequal' 0 351 'mpi_universe_size' 0 352 'mpi_version' 0 353
+'mpi_win_base' 0 354 'mpi_win_disp_unit' 0 355 'mpi_win_dup_fn' 0 356
+'mpi_win_null' 0 357 'mpi_win_null_copy_fn' 0 358 'mpi_win_null_delete_fn'
+0 359 'mpi_win_size' 0 360 'mpi_wtick' 0 361 'mpi_wtime' 0 362
+'mpi_wtime_is_global' 0 363 'numscrew' 0 364 'ompi_greek_version' 0 365
+'ompi_major_version' 0 366 'ompi_minor_version' 0 367
+'ompi_release_version' 0 368 'ompi_svn_version' 0 369 'pmpi_wtick' 0 370
+'pmpi_wtime' 0 371 'pscrew' 0 372 'real_times_m1' 0 8 'real_times_t1' 0
+9 'real_times_v1' 0 13 'screwn' 0 382 'segscrew' 0 383 't1_div_real' 0
+18 't1_minus_t2' 0 5 't1_mul_v2' 0 10 't1_plus_t2' 0 2 'tauiii' 0 396
+'tensor' 0 127 'theta_rotate_v1' 0 21 'trans' 0 401 'tvlastscrewpoint' 0
+404 'tvtmppl' 0 405 'uscrew' 0 406 'uv' 0 407 'v1_cross_v2' 0 22
+'v1_div_real' 0 20 'v1_dot_v2' 0 14 'v1_minus_v2' 0 7 'v1_outerproduct_m2'
+0 15 'v1_outerproduct_v2' 0 17 'v1_plus_v2' 0 4 'vect' 0 431 'vector' 0
+49 'vectors' 0 436 'zqmpi' 0 437 'zqmpi_bcastd' 0 24 'zqmpi_bcasti' 0 25
+'zqmpi_bcastl' 0 26 'zqmpi_clean' 0 450 'zqmpi_finalization' 0 451
+'zqmpi_init' 0 452 'zqmpi_isendd' 0 27 'zqmpi_isendi' 0 28 'zqmpi_isendl'
+0 29 'zqmpi_recvd' 0 30 'zqmpi_recvi' 0 31 'zqmpi_recvl' 0 32
+'zqmpi_sndrcv' 0 483 'zqmpidata' 0 484)

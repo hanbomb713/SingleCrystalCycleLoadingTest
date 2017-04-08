@@ -1,0 +1,5 @@
+&MATERIAL MU=50D9,NU=0.31,LATTICE=3.615D-10,APPLIED_SIG=1.0D3,DELTA_SIG=1.5D6,A_CUBE=5533,
+          MOBILITY=1.0D-4,DTIME=1D-10,StrainRate=-1d2,ElasticCons=131d9,dcrit=400,ld1=1,ld2=0,ld3=0/
+&DIMENSIONS MAX_QUAD=16,N_TIMES=500,ILOOP_TIME=1600,NPOINT_I=5,MAX_NODE=30,MAX_PLANE=6000,MAX_NEIGHBOR=100,
+            iObstacle=0,iInertial=0,iCrossslip=0,CheckNeiBur=1,IntegrateMethod=2,logAnnihilation=1,Load=1,iDisOutFreq=10,
+            iPastFreq=10,iGeneralOutFreq=10/
